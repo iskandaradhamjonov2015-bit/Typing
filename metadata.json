@@ -1,0 +1,6 @@
+{
+  "name": "TypeFlow - Monkeytype Klaviaturasi",
+  "description": "Erkin matn yozish va klaviatura tugmalarining jonli animatsiyasi bilan Monkeytype uslubidagi tez yozish trenajyori.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
