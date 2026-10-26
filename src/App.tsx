@@ -623,6 +623,22 @@ export default function App() {
         </div>
       </main>
 
+      {/* Eng tagidagi mualliflik qatori */}
+      <footer
+        className="w-full py-3.5 text-center border-t text-xs select-none transition-colors"
+        style={{
+          borderColor: theme.border,
+          backgroundColor: theme.surface,
+        }}
+      >
+        <p className="font-mono text-xs flex items-center justify-center gap-1.5" style={{ color: theme.textSecondary }}>
+          <span>Muallif:</span>
+          <span className="font-bold tracking-wide px-2 py-0.5 rounded text-xs border" style={{ color: theme.accent, borderColor: theme.border, backgroundColor: theme.bg }}>
+            Iskandar
+          </span>
+        </p>
+      </footer>
+
       {/* Results Modal */}
       <ResultsModal
         isOpen={isResultsOpen}
